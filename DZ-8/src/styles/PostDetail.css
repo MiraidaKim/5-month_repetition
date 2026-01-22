@@ -1,0 +1,49 @@
+.post-detail {
+  padding: 40px;
+  text-align: center;
+  background: linear-gradient(to bottom, #000000, #1a1a1a);
+  min-height: calc(100vh - 100px);
+  color: #fff;
+}
+
+.post-detail h1 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  text-shadow: 2px 2px 5px #000;
+}
+
+.post-detail p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.post-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.post-images img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.post-detail button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #1a1a1a;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.post-detail button:hover {
+  background-color: #646cff;
+}
